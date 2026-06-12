@@ -21,11 +21,7 @@ llm = ChatOpenAI(
     api_key=os.getenv("OPENAI_API_KEY")
 )
 
-# llm = ChatGoogleGenerativeAI(
-#     model="gemini-2.5-flash",
-#     temperature=0,
-#     api_key=os.getenv("GEMINI_API_KEY"),
-# )
+
 
 
 client = TavilyClient(api_key=os.getenv("TAVILY_API_KEY"))
@@ -183,38 +179,6 @@ def nepqa_extract_requirements_to_json(pdffile, start_page, end_page) -> dict:
     return json.loads(cleaned_json)
 
    
-
-# pdf = "data/nepal-photovoltaic-quality-assurance-2025-nepqa-2025.pdf"
-
-# inputtext =extract_pdf_pages_as_markdown(
-#         pdf, start_page=18, end_page=19)
-    
-
-# result = specalised_agent.invoke({
-#     "messages": [
-#         {
-#             "role": "user",
-#             "content": inputtext,
-#         }
-#     ]
-# })
-# import json
-
-# last_msg = result["messages"][-1]
-
-# # Handle both string and list cases
-# if isinstance(last_msg.content, list):
-#     cleaned_json = last_msg.content[0]["text"]
-# else:
-#     cleaned_json = last_msg.content
-
-# # remove markdown safely (DON'T use strip for this)
-# cleaned_json = cleaned_json.replace("```json", "").replace("```", "").strip()
-
-# data = json.loads(cleaned_json)
-
-# with open("output.json", "w", encoding="utf-8") as f:
-#     json.dump(data, f, indent=2)
 
 if __name__ == "__main__":
     md_text = extract_pdf_pages_as_markdown(

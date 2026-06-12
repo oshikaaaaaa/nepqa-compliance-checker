@@ -1,4 +1,4 @@
-```markdown
+
 # Draft Import Compliance File — Grid-Tied Solar Inverters
 
 ---

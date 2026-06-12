@@ -142,7 +142,7 @@ def generate_report():
         print("Report already exists. Loading from file.")
         return Path("output/compliance_report.md").read_text(encoding="utf-8")
     print("Generating compliance report...")
-    return "hereee"
+    
     response = llm.invoke(report_gen_prompt)
     return response
 

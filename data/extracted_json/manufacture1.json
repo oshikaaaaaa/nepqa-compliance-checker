@@ -92,7 +92,7 @@
     "_notes": "Model suffix AM2-P1 differs from AM2 in max input current and short-circuit current only."
   },
   "SUN-4K-G06P3-EU-AM2": {
-    "grid_voltage_three_phase": "3L/N/PE 230/400V",
+    "": "3L/N/PE 230/400V",
     "grid_voltage_single_phase": null,
     "grid_frequency": "50/60 Hz",
     "inverter_output_frequency": null,
@@ -105,7 +105,7 @@
     "no_load_loss_transformerless": null,
     "no_load_loss_transformer": null,
     "total_harmonic_distortion_thd": null,
-    "power_factor_nominal": "0.8 leading~0.8 lagging",
+    "power_factor_nominal": "0.8 leading~0grid_voltage_three_phase.8 lagging",
     "power_factor_adjustable_range": "0.8 leading~0.8 lagging",
     "anti_islanding": null,
     "dc_injection_limit": null,
