@@ -128,14 +128,8 @@ python run.py
 
 The pipeline runs all steps in sequence and writes the final report to `output/compliance_report.md`.
 
-To force a re-run of a specific step, delete its cached output:
+To force a re-run of a specific step, delete the cached files in the data folder.
 
-| Step | Cache to delete |
-|---|---|
-| PDF extraction | `data/extracted_md/<filename>.md` |
-| NEPQA JSON | `data/extracted_json/nepalqa.json` |
-| Manufacturer JSON | `data/extracted_json/manufacture1.json` or `manufacture2.json` |
-| Report | `output/compliance_report.md` |
 
 ---
 
