@@ -1,0 +1,52 @@
+{
+  "grid_voltage_three_phase": "400V \u00b110% (NEA grid code)",
+  "grid_voltage_single_phase": "230V \u00b110% (NEA grid code)",
+  "grid_frequency": "50Hz \u00b11% (NEA grid code)",
+  "inverter_output_frequency": "50Hz \u00b12.5%",
+  "mppt_efficiency": "\u2265 95% (IEC 62891:2020)",
+  "inverter_efficiency_up_to_5kVA_transformerless": "\u2265 95%",
+  "inverter_efficiency_above_5kVA_transformerless": "\u2265 97%",
+  "euro_efficiency_up_to_5kVA_transformerless": "\u2265 94%",
+  "euro_efficiency_above_5kVA_transformerless": "\u2265 96%",
+  "inverter_efficiency_transformer_topology": "\u2265 90%",
+  "no_load_loss_transformerless": "< 0.5% rated power",
+  "no_load_loss_transformer": "< 1.5% rated power",
+  "total_harmonic_distortion_thd": "< 5% at full load (IEC 61727:2004)",
+  "power_factor_nominal": "> 0.99",
+  "power_factor_adjustable_range": "0.8 leading to 0.8 lagging",
+  "anti_islanding": "detection and trip within 2s (IEC 62116:2014)",
+  "dc_injection_limit": "as per latest NEA grid code",
+  "ip_rating": "\u2265 IP65 (IEC 60529)",
+  "built_in_meter_data_logger": "required",
+  "internal_protection": "against DC reverse polarity, grid faults, and lightning",
+  "automatic_operation": "automatic wake-up, synchronization, and shutdown",
+  "cooling_system": "fan or appropriate heat sink required",
+  "warranty_period": "\u2265 5 years",
+  "required_certifications": [
+    "IEC 61727:2004",
+    "IEC 62116:2014",
+    "IEC 62891:2020",
+    "IEC 62109-1:2010",
+    "IEC 62109-2:2011"
+  ],
+  "certification_bodies": [
+    "CBTL",
+    "RETL",
+    "NCB",
+    "RECB"
+  ],
+  "required_documents": [
+    "IEC accredited laboratory test certificates",
+    "Agreement document between local importer and principal manufacturer with warranty",
+    "Catalogue and technical datasheet"
+  ],
+  "label_information": [
+    "Manufacturer name",
+    "Brand, Model, Type",
+    "Rated Power (Watt or VA)",
+    "Input and output voltage (Volt) and frequency (Hz)",
+    "Maximum Input Voltage",
+    "Input Voltage Range",
+    "Serial Number"
+  ]
+}
